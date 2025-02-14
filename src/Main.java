@@ -26,18 +26,18 @@ public class Main {
 
             // determine shipping cost if/else
             if (itemCost < 100){
-                totalPrice = itemCost;
+                shippingCost = itemCost * SHIPPING_FEE;
+                totalPrice = itemCost + shippingCost;
 
                 System.out.println("The cost of your item is: $" + itemCost);
                 System.out.println("Item is less than $100, your shipping fee is: $" + shippingCost);
                 System.out.println("The total cost of your purchase is: $" + totalPrice);
             }
             else {
-                shippingCost = itemCost * SHIPPING_FEE;
-                totalPrice = itemCost + shippingCost;
+                totalPrice = itemCost;
 
                 System.out.println("The cost of your item is: $" + itemCost);
-                System.out.println("Item is more than $100, your shipping fee is: $" + shippingCost);
+                System.out.println("Item is more than $100, shipping is free!");
                 System.out.println("The total cost of your purchase is: $" + totalPrice);
             }
 
