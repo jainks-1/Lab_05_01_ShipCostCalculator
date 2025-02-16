@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Lab_05_01_ShipCostCalculator.iml" filepath="$PROJECT_DIR$/Lab_05_01_ShipCostCalculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab_05_02_ShipCostCalculator.iml" filepath="$PROJECT_DIR$/Lab_05_02_ShipCostCalculator.iml" />
     </modules>
   </component>
 </project>
